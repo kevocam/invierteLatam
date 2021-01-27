@@ -1,0 +1,33 @@
+html {
+  font-size: 80.5%;
+}
+
+.header--menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header--menu ul li {
+  cursor: pointer;
+}
+
+.hero {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.hero--content {
+  max-width: 450px;
+  text-align: left;
+}
+
+.hero--img {
+  max-width: 250px;
+}
+/*# sourceMappingURL=desktop.css.map */

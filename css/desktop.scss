@@ -1,0 +1,30 @@
+
+  $blanco: #fbf8f8;
+  $azul: #193e55;
+  html {
+    font-size: 80.5%;
+    
+  }
+  .header{
+      &--menu{
+          display:flex;
+          ul{
+              li{
+                  cursor:pointer;
+              }
+          }
+      }
+  }
+  .hero{
+      flex-direction: row;
+      justify-content: space-evenly;
+      &--content{
+          max-width: 450px;
+          text-align:left;
+
+      }
+      &--img{
+          max-width: 250px;
+      }
+  }
+  
